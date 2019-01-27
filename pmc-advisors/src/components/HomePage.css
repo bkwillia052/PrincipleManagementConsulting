@@ -1,0 +1,129 @@
+.main-image{
+    background-image: url('https://images.pexels.com/photos/128867/coins-currency-investment-insurance-128867.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    height: 65%;
+    width: 80%;
+    margin-top: 50px;
+    background-position: bottom;
+    position: relative;
+}
+
+.slogan{
+    display: flex;
+    font-size: 90px;
+    text-shadow: 2px 1px 1px black;
+    color: white;
+    flex-direction: column;
+    height: 100%;
+    
+}
+
+.row{
+    width: 100%;
+    margin-top: 15px;
+}
+
+.phrase{
+    display: inline-block;
+    background: rgba(196, 196, 196, 0.664);
+    padding-right: 20px;
+    border-left: 12px solid black;
+}
+
+.phrase.red{
+    border-left-color: rgb(231, 26, 22);
+}
+
+.main-bottom{
+    display: flex;
+    height: 60%;
+    justify-content: flex-end;
+}
+
+.main-text{
+    position: relative;
+    margin-top: 20px;
+    width: 55%;
+    background: rgba(161, 161, 161, 0.801); 
+    margin-right: 12px; 
+    max-height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+    justify-content: center;
+    
+    
+}
+
+.main-text > div {
+    margin: 10px 10px;
+    font-size: 1.6vw;
+
+}
+
+.red-top{
+    border-top: 4px solid rgb(231, 26, 22);
+}
+
+.black-top{
+    border-top: 4px solid black;
+}
+
+.btn-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+}
+
+.learn-more{
+    display: flex;
+    justify-content: center;
+    font-size: 2.5vw;
+    background: black;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.checkbox{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+
+.box{
+    border: white 1px solid;
+}
+
+.box.tl{
+    grid-column: 1;
+    grid-row: 1;
+}
+.box.tr{
+    grid-column: 2;
+    grid-row: 1;
+}
+.box.bl{
+    grid-column: 1;
+    grid-row: 2;
+}
+.box.br{
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.white{
+    background: white;
+}
+
+.rd{
+    background: rgb(231, 26, 22);
+}
+
+.blk{
+    background: black;
+}

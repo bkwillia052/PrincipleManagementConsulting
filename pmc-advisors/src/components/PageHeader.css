@@ -1,0 +1,11 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header-txt{
+    color: white;
+    margin: 25px 10px;
+}

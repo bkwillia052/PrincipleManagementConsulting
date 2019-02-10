@@ -257,3 +257,9 @@
         font-size: 45px;
     }
 }
+
+@media (max-width: 375px){
+    .slogan{
+        font-size: 40px;
+    }
+}

@@ -1,4 +1,4 @@
 [build]
   base    = "./pmc-advisors"
-  publish = "./pmc-advisors/public"
+  publish = "./pmc-advisors/build"
   command = "yarn build"

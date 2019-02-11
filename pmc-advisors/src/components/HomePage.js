@@ -2,7 +2,7 @@ import React, { Component, Fragment } from 'react';
 import './HomePage.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import CheckerBox from './CheckerBox'
-
+import { Route, Switch, Redirect, NavLink, Link } from 'react-router-dom';
 const strategies = {
   gm: ['Organizational capacity analysis', 'Management dashboard development', 'Strategic business plan creation'],
   rd: ['Marketing plan analysis','Financial feasibility and ROI analysis', 'Action plan for implementation'],
@@ -44,9 +44,9 @@ class HomePage extends Component {
                 <div className="btn-box">
                     
                     <div className="learn-more">
-                        <a href="/about" style={{textDecoration: 'unset', color: 'unset'}}>
+                        <Link to="/about" style={{textDecoration: 'unset', color: 'unset'}}>
                         LEARN MORE
-                        </a>
+                        </Link>
                     </div>
                     
                     <CheckerBox />

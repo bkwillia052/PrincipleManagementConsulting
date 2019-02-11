@@ -42,9 +42,11 @@ class HomePage extends Component {
 
             <div className="main-bottom">
                 <div className="btn-box">
+                    <a href="/about" style={{textDecoration: 'unset', color: 'unset'}}>
                     <div className="learn-more">
                         LEARN MORE
                     </div>
+                    </a>
                     <CheckerBox />
                 </div>
 

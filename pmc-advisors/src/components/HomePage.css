@@ -199,6 +199,9 @@
 } */
 
 @media (max-width: 420px){
+    .logo{
+        width: 75%;
+    }
     .nav-btn{
         padding: 0 15px;
     }

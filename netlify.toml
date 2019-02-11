@@ -1,0 +1,3 @@
+[build]
+  base    = "pmc-advisors"
+  publish = "pmc-advisors/public"

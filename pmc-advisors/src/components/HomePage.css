@@ -187,7 +187,7 @@
     display: none;
 }
 
-@media(min-width: 1300px){
+@media only screen and(min-width: 1300px){
     .main-text > div{
         font-size: 21px;
     }
@@ -198,7 +198,7 @@
     }
 } */
 
-@media (max-width: 420px){
+@media only screen and (max-width: 420px){
     .logo{
         width: 75%;
     }
@@ -261,7 +261,7 @@
     }
 }
 
-@media (max-width: 375px){
+@media only screen and (max-width: 375px){
     .slogan{
         font-size: 34px;
     }

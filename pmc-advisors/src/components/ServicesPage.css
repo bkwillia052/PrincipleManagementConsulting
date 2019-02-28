@@ -1,0 +1,153 @@
+.services-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.header-box.services {
+  height: 750px;
+}
+
+.header-box.services::after {
+  content: "";
+  background: url("https://images.pexels.com/photos/358502/pexels-photo-358502.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  opacity: 1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  background-size: cover;
+  background-position: center 15%;
+  z-index: -1;
+}
+
+.services-content {
+  height: 80%;
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+
+.services-main-ct {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.466);
+  padding: 15px;
+}
+
+.services-btns {
+  flex-direction: column;
+  justify-content: center;
+  width: 45%;
+  align-items: center;
+  display: flex;
+  height: 75%;
+  align-self: center;
+}
+
+.service-btn {
+  font-size: 38px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0);
+  width: 90%;
+  margin: 15px 0;
+  display: flex;
+  justify-content: center;
+  border: 2px solid white;
+  color: white;
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+  text-shadow: 1px 1px 1px black;
+}
+
+.service-btn.expense::before {
+  background: url("https://images.pexels.com/photos/53621/calculator-calculation-insurance-finance-53621.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-position: center 45%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  background-size: cover;
+  z-index: -1;
+  content: "";
+}
+.service-btn.expense::before:hover {
+  opacity: 0.5;
+}
+
+.service-btn.revenue::after {
+  background: url("https://images.pexels.com/photos/95916/pexels-photo-95916.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-position: center 15%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  background-size: cover;
+  z-index: -1;
+  content: "";
+}
+.service-btn.growth::after {
+  background: url("https://images.pexels.com/photos/159888/pexels-photo-159888.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-position: center 55%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  background-size: cover;
+  z-index: -1;
+  content: "";
+}
+
+.service-btn:hover {
+  background: rgba(255, 255, 255, 0.411);
+  color: black;
+}
+
+.services-main-hd {
+  display: flex;
+  width: 85%;
+  flex-direction: column;
+  margin-bottom: 15px;
+  border-bottom: white solid 1px;
+  padding-bottom: 15px;
+}
+
+.services-hdr {
+  color: white;
+  font-size: 50px;
+}
+
+.services-phrase {
+  font-size: 20px;
+  font-style: italic;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+.services-main-txt {
+  justify-content: center;
+  width: 85%;
+}
+
+.topic-box {
+  margin-bottom: 15px;
+}
+.topic-title {
+  font-size: 30px;
+  color: white;
+}
+.topic-bullets {
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  font-size: 18px;
+  font-weight: 400;
+}

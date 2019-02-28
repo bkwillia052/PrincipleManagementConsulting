@@ -1,0 +1,44 @@
+.contact-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.contact-bg {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  height: 95%;
+  background: url(https://images.pexels.com/photos/416673/pexels-photo-416673.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  align-items: center;
+}
+
+.c-form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.438);
+  height: 50%;
+  width: 50%;
+  margin-top: 50px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.603);
+}
+
+.c-form-hdr {
+}
+
+.form-name {
+  width: 50%;
+}
+
+.form-services {
+}
+
+.form-company {
+}
+
+.form-ipt {
+  margin: 10px 0;
+}

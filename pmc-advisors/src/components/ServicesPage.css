@@ -4,10 +4,11 @@
   align-items: center;
   min-height: 100vh;
   width: 100%;
+  position: relative;
 }
 
 .header-box.services {
-  height: 750px;
+  min-height: 750px;
 }
 
 .header-box.services::after {
@@ -36,7 +37,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: rgba(0, 0, 0, 0.466);
+  background: rgba(0, 0, 0, 0.766);
   padding: 15px;
 }
 
@@ -59,6 +60,7 @@
   display: flex;
   justify-content: center;
   border: 2px solid white;
+  background-color: black;
   color: white;
   cursor: pointer;
   position: relative;
@@ -66,7 +68,7 @@
   text-shadow: 1px 1px 1px black;
 }
 
-.service-btn.expense::before {
+.expense-bg {
   background: url("https://images.pexels.com/photos/53621/calculator-calculation-insurance-finance-53621.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
   background-position: center 45%;
   top: 0;
@@ -76,13 +78,23 @@
   position: absolute;
   background-size: cover;
   z-index: -1;
-  content: "";
 }
-.service-btn.expense::before:hover {
-  opacity: 0.5;
+.expense-bg:hover {
+  opacity: 0.4;
 }
 
-.service-btn.revenue::after {
+.divinc-bg {
+  background: url("https://images.pexels.com/photos/437345/pexels-photo-437345.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-position: center 40%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  background-size: cover;
+  z-index: -1;
+}
+.revenue-bg {
   background: url("https://images.pexels.com/photos/95916/pexels-photo-95916.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
   background-position: center 15%;
   top: 0;
@@ -92,9 +104,8 @@
   position: absolute;
   background-size: cover;
   z-index: -1;
-  content: "";
 }
-.service-btn.growth::after {
+.growth-bg {
   background: url("https://images.pexels.com/photos/159888/pexels-photo-159888.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
   background-position: center 55%;
   top: 0;
@@ -104,11 +115,9 @@
   position: absolute;
   background-size: cover;
   z-index: -1;
-  content: "";
 }
-
 .service-btn:hover {
-  background: rgba(255, 255, 255, 0.411);
+  background-color: rgba(255, 255, 255, 0.747);
   color: black;
 }
 
@@ -150,4 +159,23 @@
   text-shadow: 1px 1px 1px black;
   font-size: 18px;
   font-weight: 400;
+}
+@media (max-width: 411px) {
+  .services-content {
+    flex-direction: column-reverse;
+    height: unset;
+  }
+  .services-btns {
+    width: 100%;
+  }
+  .service-btn {
+    width: 90%;
+    font-size: 20px;
+  }
+  .services-main-ct {
+    width: 100%;
+  }
+  .services-container {
+    margin-bottom: 55px;
+  }
 }

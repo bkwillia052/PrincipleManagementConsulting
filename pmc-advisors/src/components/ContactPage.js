@@ -12,7 +12,8 @@ import PageHeader from "./PageHeader";
 const styles = theme => ({
   container: {
     display: "flex",
-    flexWrap: "wrap"
+    flexWrap: "wrap",
+    color: "white"
   },
   formControl: {
     margin: theme.spacing.unit
@@ -40,7 +41,10 @@ class ContactPage extends Component {
                 className="form-ipt form-name"
               >
                 <InputLabel
-                  style={{ marginLeft: "5px" }}
+                  style={{
+                    marginLeft: "5px",
+                    color: "white"
+                  }}
                   ref={ref => {
                     this.labelRef = ReactDOM.findDOMNode(ref);
                   }}
@@ -50,6 +54,7 @@ class ContactPage extends Component {
                 </InputLabel>
                 <OutlinedInput
                   id="form-name"
+                  style={{ color: "white", border: "1px solid white" }}
                   labelWidth={this.labelRef ? this.labelRef.offsetWidth : 0}
                 />
               </FormControl>
@@ -59,7 +64,7 @@ class ContactPage extends Component {
                 className="form-ipt form-services"
               >
                 <InputLabel
-                  style={{ marginLeft: "5px" }}
+                  style={{ marginLeft: "5px", color: "white" }}
                   ref={ref => {
                     this.labelRef = ReactDOM.findDOMNode(ref);
                   }}
@@ -69,19 +74,20 @@ class ContactPage extends Component {
                 </InputLabel>
                 <OutlinedInput
                   id="form-company"
+                  style={{ border: "1px solid white" }}
                   labelWidth={this.labelRef ? this.labelRef.offsetWidth : 0}
                 />
               </FormControl>
 
               <FormControl
-                style={{ margin: "10px 0" }}
+                style={{ margin: "10px 0", color: "white" }}
                 className="form-ipt form-services"
               >
                 <TextField
                   id="outlined-multiline-static"
-                  label="Multiline"
                   multiline
                   rows="10"
+                  style={{ color: "white" }}
                   label="Which services do you need?"
                   variant="outlined"
                 />

@@ -143,7 +143,7 @@ business success`,
 
 class ServicesPage extends Component {
   state = {
-    mainObj: content.em,
+    mainObj: content.di,
     hovered: ""
   };
 

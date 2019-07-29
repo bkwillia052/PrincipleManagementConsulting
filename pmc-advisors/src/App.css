@@ -81,7 +81,7 @@ a {
   height: 100%;
 }
 
-@media (max-width: 411px) {
+@media only screen and (max-width: 411px) {
   nav {
   }
   .nav-top {
@@ -99,6 +99,9 @@ a {
     width: 100%;
   }
   .bottom-phrase {
+    width: 100%;
+  }
+  .slogan{
     width: 100%;
   }
 }

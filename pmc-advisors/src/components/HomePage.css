@@ -250,15 +250,14 @@
   .phrase {
   }
   .main-container {
-    height: unset;
   }
   .main-image {
-    height: unset;
   }
   .main-bottom {
-    flex-direction: column-reverse;
     align-items: center;
     height: unset;
+    width: 90%;
+    align-self: center;
   }
   .main-text {
     margin: 30px 0;
@@ -299,6 +298,7 @@
   }
   .slogan {
     font-size: 45px;
+    width: 100%;
   }
 }
 

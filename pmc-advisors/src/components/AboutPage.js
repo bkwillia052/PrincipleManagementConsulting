@@ -6,6 +6,16 @@ import InfoBox from './InfoBox';
 import CheckerBox from './CheckerBox';
 
 const founders = {
+    brian: {
+        name: 'Brian Williams',
+        about: `As a senior management consultant and business executive, Brian has over 20 years experience leading and advising
+        corporations. Mr. Williams has most recently served as COO and consultant to the Los Angeles Urban League, where he was responsible for overseeing the 
+League's Supplier Diversity and Academic Inclusion Programs. His experience also includes senior marketing and operating positions at Procter & Gamble and Pulte Homes. As a
+        senior consultant with McKinsey & Company, Brian advised senior executives on strategy, marketing, and operational
+        efficiency issues. His industry expertise includes Pharmaceuticals, Durable Goods Manufacturing, Consumer Packaged
+        Goods and Retail.   `,
+        creds: 'Brian holds an MBA from Yale School of Management and a BA from Yale College.'
+    },
     jon: {
         name: 'Jon Walls',
         about: `Jon Walls is a senior finance and operations executive possessing over 15 years of experience with Fortune 500 companies
@@ -17,16 +27,7 @@ const founders = {
         development (M&A) and accounting. `,
         creds: 'Jon holds an MBA from Harvard Business School, a JD from Harvard Law School and a BA from Yale University. '
     },
-    brian: {
-        name: 'Brian Williams',
-        about: `As a senior management consultant and business executive, Brian has over 20 years experience leading and advising
-        corporations. Mr. Williams has most recently served as COO and consultant to the Los Angeles Urban League, where he was responsible for overseeing the 
-League's Supplier Diversity and Academic Inclusion Programs. His experience also includes senior marketing and operating positions at Procter & Gamble and Pulte Homes. As a
-        senior consultant with McKinsey & Company, Brian advised senior executives on strategy, marketing, and operational
-        efficiency issues. His industry expertise includes Pharmaceuticals, Durable Goods Manufacturing, Consumer Packaged
-        Goods and Retail.   `,
-        creds: 'Brian holds an MBA from Yale School of Management and a BA from Yale College.'
-    }
+    
 }
 
 

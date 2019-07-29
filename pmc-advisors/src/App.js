@@ -30,24 +30,22 @@ class App extends Component {
               src={require("./assets/imgs/PMC-logo.jpg")}
               alt="pmc-logo"
             />
+
+            <nav className="nav-black">
+              <Link to="/">
+                <div className="nav-btn">Home</div>
+              </Link>
+              <Link to="/about">
+                <div className="nav-btn">About</div>
+              </Link>
+              <Link to="/services">
+                <div className="nav-btn">Services</div>
+              </Link>
+              <Link to="/contact">
+                <div className="nav-btn">Contact</div>
+              </Link>
+            </nav>
           </div>
-
-          <div className="nav-red" />
-
-          <nav className="nav-black">
-            <Link to="/">
-              <div className="nav-btn">Home</div>
-            </Link>
-            <Link to="/about">
-              <div className="nav-btn">About</div>
-            </Link>
-            <Link to="/services">
-              <div className="nav-btn">Services</div>
-            </Link>
-            <Link to="/contact">
-              <div className="nav-btn">Contact</div>
-            </Link>
-          </nav>
         </div>
         {/* NAV END */}
 

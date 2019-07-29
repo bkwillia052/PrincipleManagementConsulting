@@ -26,7 +26,26 @@ class ContactPage extends Component {
       <div className="contact-container">
         <div className="contact-bg">
           <PageHeader centerBox={true} title="CONTACT US" />
-          <div className="c-form">
+
+          <iframe
+            id="JotFormIFrame-92088491672871"
+            title="Responsive Envelope Contact Form"
+            onload="window.parent.scrollTo(0,0)"
+            allowtransparency="true"
+            allowfullscreen="true"
+            allow="geolocation; microphone; camera"
+            src="https://form.jotform.co/92088491672871"
+            frameborder="0"
+            style={{
+              width: "1px",
+              minWidth: "100%",
+              height: "539px",
+              border: "none"
+            }}
+            scrolling="no"
+          />
+
+          {/* <div className="c-form">
             <div className="c-form-hdr">
               Ready to grow your business? Email us{" "}
               <a className="eml" href="">
@@ -93,7 +112,7 @@ class ContactPage extends Component {
                 />
               </FormControl>
             </FormControl>
-          </div>
+          </div> */}
         </div>
       </div>
     );

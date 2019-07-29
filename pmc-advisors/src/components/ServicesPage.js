@@ -40,15 +40,6 @@ const content = {
           "- Communicating your brand as one that signals inclusivity and equal opportunity",
           "- Organizing and attending events where diversity in your industry is being debated and discussed."
         ]
-      },
-
-      {
-        title: "Something Else",
-        bullets: [
-          "- ...Reporting structure review...",
-          "- ...Unbiased management talent review",
-          `- ...Organizational "right-sizing" support`
-        ]
       }
     ]
   },

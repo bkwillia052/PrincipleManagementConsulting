@@ -54,7 +54,7 @@ class App extends Component {
         <Route path="/services" render={props => <ServicesPage {...props} />} />
         <Route path="/contact" render={props => <ContactPage {...props} />} />
 
-        <footer> PMC Advisors 2019 | Contact: 917-972-6579 </footer>
+        <footer> Principle Management Consulting© 2019 </footer>
       </div>
     );
   }

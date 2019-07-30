@@ -22,17 +22,18 @@ const SlideInfo = ({ slideText, selectedText, num }) => {
   });
   let rowAnimationR = useSpring({
     opacity: selectedText === num ? 1 : 0,
-    marginRight: selectedText === num ? `0px` : `50px`, justifyContent: "flex-end" 
+    marginRight: selectedText === num ? `0px` : `50px`,
+    justifyContent: "flex-end"
   });
   let textAni = useSpring({
-    top: selectedText === num ? `0px` : `15px`,
+    top: selectedText === num ? `1px` : `15px`,
     opacity: selectedText === num ? 1 : 0
-  })
+  });
   let textAni2 = useSpring({
     left: selectedText === num ? `0px` : `15px`,
     opacity: selectedText === num ? 1 : 0,
     delay: 500
-  })
+  });
   return (
     <div className={`slide-info ${num === selectedText ? "" : "hidden"}`}>
       <animated.div style={rowAnimationL} className="row">
@@ -53,11 +54,13 @@ const SlideInfo = ({ slideText, selectedText, num }) => {
       </animated.div>
 
       <div className="main-bottom">
-        <animated.div style={textAni}className="top-phrase">
+        <animated.div style={textAni} className="top-phrase">
           {topPhrase}
           <div className="top-phrase-bottom-bar" />
         </animated.div>
-        <animated.div style={textAni2} className="bottom-phrase">{bottomPhrase}</animated.div>
+        <animated.div style={textAni2} className="bottom-phrase">
+          {bottomPhrase}
+        </animated.div>
       </div>
     </div>
   );

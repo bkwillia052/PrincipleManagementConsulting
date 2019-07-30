@@ -10,6 +10,7 @@ footer {
   display: flex;
   justify-content: center;
   padding: 5px;
+  font-size: 12px;
   z-index: 3;
 }
 .main-container {
@@ -18,7 +19,7 @@ footer {
   position: relative;
   background-color: rgb(245, 240, 225);
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .nav-cont {
@@ -81,7 +82,7 @@ a {
   height: 100%;
 }
 
-@media only screen and (max-width: 411px) {
+@media only screen and (max-width: 420px) {
   nav {
   }
   .nav-top {
@@ -95,13 +96,15 @@ a {
     width: 100%;
     font-size: 12px;
   }
-  .top-phrase {
-    width: 100%;
+  .main-bottom > .top-phrase {
+    width: 90%;
+    font-size: 14px;
   }
-  .bottom-phrase {
-    width: 100%;
+  .main-bottom > .bottom-phrase {
+    width: 90%;
+    font-size: 14px;
   }
-  .slogan{
+  .slogan {
     width: 100%;
   }
 }

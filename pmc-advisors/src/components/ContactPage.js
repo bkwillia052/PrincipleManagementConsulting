@@ -94,7 +94,7 @@ class ContactPage extends Component {
                 </InputLabel>
                 <OutlinedInput
                   id="form-company"
-                  style={{ border: "1px solid white" }}
+                  style={{ border: "1px solid white", color: "white" }}
                   labelWidth={this.labelRef ? this.labelRef.offsetWidth : 0}
                 />
               </FormControl>
@@ -107,9 +107,13 @@ class ContactPage extends Component {
                   id="outlined-multiline-static"
                   multiline
                   rows="10"
-                  style={{ color: "white", borderColor: "white" }}
+                  style={{
+                    color: "white",
+                    borderColor: "white"
+                  }}
                   label="Which services do you need?"
                   variant="outlined"
+                  inputProps={{ className: { color: "white" } }}
                 />
               </FormControl>
             </FormControl>

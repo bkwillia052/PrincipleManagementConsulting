@@ -13,7 +13,7 @@
   height: 100%;
   background: url(https://images.pexels.com/photos/416673/pexels-photo-416673.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
   align-items: center;
-      min-height: 100vh;
+  min-height: 100vh;
 }
 
 .c-form {
@@ -31,7 +31,9 @@
   font-weight: 600;
   font-size: 20px;
 }
-
+textarea {
+  background-color: rgba(248, 248, 255, 0.699);
+}
 .c-form-hdr {
 }
 
